@@ -127,11 +127,15 @@ public class TechJobs {
                     System.out.println(fields.getKey() + ": " + fields.getValue());
                 }
                 System.out.println("*****");
+
+                if(someJobs.indexOf(job) != someJobs.size() - 1){
+                    System.out.println("");
+                }
+
             }
         }else {
-            System.out.println("***** \nNo Matching Jobs.\n*****");
+            System.out.println("No Results");
         }
-
 
     }
 }
