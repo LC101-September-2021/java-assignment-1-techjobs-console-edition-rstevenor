@@ -122,10 +122,7 @@ public class TechJobs {
 
         if (someJobs.size() > 0 ) {
             for (HashMap<String, String> job : someJobs) {
-                if(someJobs.indexOf(job) != someJobs.size() - 1 || someJobs.indexOf(job)!= 0){
-                    System.out.println("\n");
-                }
-                System.out.println("*****");
+                System.out.println("\n *****");
                 for (Map.Entry<String, String> fields : job.entrySet()) {
                     System.out.println(fields.getKey() + ": " + fields.getValue());
                 }
